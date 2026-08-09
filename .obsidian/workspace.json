@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e34dbd9495fa488a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "037bbfd35d72f37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "5a5c6ce00f91c70b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05.Templates/Project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Project"
+            }
+          },
+          {
+            "id": "d54b4cd2792a01a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05.Templates/Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note"
+            }
+          },
+          {
+            "id": "48562c9345e72d27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05.Templates/121.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "121"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f3f5814232081b4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d87824a9d275d9b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "259a6782bf9cff58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "5ba8c7b03cc53df8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "098e719d871abf7e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "eed27e1faf6f28fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "a159f9f0959cd04b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2bd043622834da2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/Problemas genesys chat.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Problemas genesys chat"
+            }
+          },
+          {
+            "id": "8baa98dc790bcb55",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/Proyecto Ejemplo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Proyecto Ejemplo"
+            }
+          },
+          {
+            "id": "9866c717bdd7ad91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "8b01e2379e7e7971",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "88db1faf498324ab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Proyecto Ejemplo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Proyecto Ejemplo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "switcher:Abrir selector rápido": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-task-progress-bar:Open Task Genius view": false
+    }
+  },
+  "active": "259a6782bf9cff58",
+  "lastOpenFiles": [
+    "05.Templates/Project.md",
+    "02.Notes/adasd.md",
+    "01.Projects/Proyecto1.md",
+    "05.Templates/121.md",
+    "03.Meetings/recurring/Sin título 1.md",
+    "05.Templates/Recurring.md",
+    "03.Meetings/Sin título.md",
+    "03.Meetings/recurring/Sin título.md",
+    "Dashboard.md",
+    "05.Templates/Note.md",
+    "01.Projects/Proj 1.md",
+    "03.Meetings/121/Nombre.md",
+    "03.Meetings/121/121 - Nombre.md",
+    "02.Notes/Test.md",
+    "01.Projects/dadadad.md",
+    "03.Meetings/recurring",
+    "03.Meetings/121/Untitled.md",
+    "01.Projects/adadadadasd.md",
+    "04.DAILY NOTES/2026-08-09.md",
+    "Bienvenido.md",
+    "04.DAILY NOTES",
+    "01.Projects/Proyecto test.md",
+    "04.Templates/Sin nombre",
+    "05.Templates",
+    "Daily Notes/2026-07-30.md",
+    "Recurrentes/121 - Eva.md",
+    "notes/Firebase Remote Config -> Pricing.md",
+    "notes/PS2.md",
+    "Recurrentes/121 - Juan.md",
+    "notes/Licencias Devel Figma.md",
+    "Attachments/Pasted image 20260724092706.png",
+    "Attachments/Pasted image 20260729095853.png",
+    "Attachments/Pasted image 20260724092817.png",
+    "Attachments/Pasted image 20260723111352.png",
+    "Attachments/Pasted image 20260723105605.png",
+    "Attachments/Pasted image 20260722152358.png",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/pomodoro-stats.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "Attachments/Pasted image 20260709165430.png",
+    "Attachments/Pasted image 20260709165336.png",
+    "Attachments/Pasted image 20260707173103.png",
+    "Attachments/Pasted image 20260707171243.png"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "defaultViewMode": "preview",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Meetings",
+  "attachmentFolderPath": "Attachments",
+  "showLineNumber": false,
+  "useTab": true,
+  "tabSize": 2,
+  "promptDelete": false,
+  "autoPairBrackets": false,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

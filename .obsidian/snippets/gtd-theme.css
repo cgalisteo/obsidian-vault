@@ -1,0 +1,204 @@
+/* ============================================================
+   GTD VAULT — Minimal & Elegant
+   ============================================================ */
+
+:root {
+  --gtd-accent:    #4a7cf7;
+  --gtd-muted:     #94a3b8;
+  --gtd-border:    rgba(0, 0, 0, 0.08);
+  --gtd-surface:   rgba(0, 0, 0, 0.025);
+  --gtd-radius:    6px;
+  --gtd-font:      -apple-system, "Inter", "SF Pro Text", sans-serif;
+}
+
+.theme-dark {
+  --gtd-border:  rgba(255, 255, 255, 0.07);
+  --gtd-surface: rgba(255, 255, 255, 0.03);
+}
+
+/* ============================================================
+   TIPOGRAFÍA
+   ============================================================ */
+
+.markdown-rendered,
+.cm-content {
+  font-family: var(--gtd-font);
+  font-size: 0.95em;
+  line-height: 1.7;
+  max-width: 780px;
+}
+
+.markdown-rendered h1 {
+  font-size: 1.55em;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  border-bottom: 1px solid var(--gtd-border);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.markdown-rendered h2 {
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gtd-muted);
+  margin-top: 36px;
+  margin-bottom: 10px;
+}
+
+.markdown-rendered h3 {
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* ============================================================
+   LINKS
+   ============================================================ */
+
+.markdown-rendered a.internal-link {
+  color: var(--gtd-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.markdown-rendered a.internal-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ============================================================
+   BLOCKQUOTES
+   ============================================================ */
+
+.markdown-rendered blockquote {
+  border-left: 2px solid var(--gtd-border);
+  margin: 12px 0;
+  padding: 4px 16px;
+  color: var(--gtd-muted);
+  font-style: normal;
+  background: none;
+}
+
+/* ============================================================
+   SEPARADORES
+   ============================================================ */
+
+.markdown-rendered hr {
+  border: none;
+  border-top: 1px solid var(--gtd-border);
+  margin: 28px 0;
+}
+
+/* ============================================================
+   CHECKBOXES / TAREAS
+   ============================================================ */
+
+.markdown-rendered .task-list-item-checkbox {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  accent-color: var(--gtd-accent);
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.markdown-rendered .task-list-item:not(.is-checked) {
+  padding: 2px 0;
+}
+
+.markdown-rendered .task-list-item.is-checked {
+  color: var(--gtd-muted);
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* ============================================================
+   TABLAS — markdown normales y Dataview
+   ============================================================ */
+
+.block-language-dataview table,
+.dataview.table-view-table,
+.markdown-rendered table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 16px;
+}
+
+.block-language-dataview th,
+.dataview.table-view-table th,
+.markdown-rendered th {
+  text-align: left;
+  font-size: 0.78em !important;
+  font-weight: 600 !important;
+  font-family: var(--font-text) !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gtd-muted);
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--gtd-border);
+  background: none;
+}
+
+.block-language-dataview td,
+.dataview.table-view-table td,
+.markdown-rendered td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--gtd-border);
+  vertical-align: top;
+  font-family: var(--font-text) !important;
+  font-size: 1em !important;
+  color: var(--text-normal);
+}
+
+.block-language-dataview tr:last-child td,
+.dataview.table-view-table tr:last-child td,
+.markdown-rendered tr:last-child td {
+  border-bottom: none;
+}
+
+.block-language-dataview tr:hover td,
+.dataview.table-view-table tr:hover td,
+.markdown-rendered tr:hover td {
+  background: var(--gtd-surface);
+}
+
+/* Texto dentro de celdas Dataview */
+.block-language-dataview td,
+.block-language-dataview td span,
+.block-language-dataview td a {
+  font-family: var(--font-text) !important;
+  font-size: 1em !important;
+}
+
+/* ============================================================
+   DATAVIEW — lista de tareas
+   ============================================================ */
+
+.dataview.task-list-item {
+  padding: 2px 0;
+  line-height: 1.6;
+}
+
+.dataview.task-list-item.is-checked {
+  opacity: 0.45;
+  text-decoration: line-through;
+}
+
+/* ============================================================
+   PANEL LATERAL
+   ============================================================ */
+
+.nav-folder-title-content {
+  font-size: 0.82em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gtd-muted);
+}
+
+.nav-file-title-content {
+  font-size: 0.88em;
+}
+

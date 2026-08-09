@@ -1,0 +1,8 @@
+{
+  "enabledCssSnippets": [
+    "gtd-theme"
+  ],
+  "baseFontSize": 14,
+  "baseFontSizeAction": true,
+  "cssTheme": "Border"
+}
